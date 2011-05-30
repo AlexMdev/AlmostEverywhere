@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /movida/commons/contents/
+
+RewriteRule ^([^/\.]+)/([^/\.]+)/?$ $1.php?info=$2 [L]
+RewriteRule ^([^/\.]+)/?$ $1.php [L]
+#RewriteRule ^([^/\.]+)/([^/\.]+)/?.xml$ $1.php?info=$2 [L]

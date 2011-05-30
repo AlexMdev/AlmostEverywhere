@@ -1,0 +1,122 @@
+/*
+	(c) TruePixel.it
+	
+	Autori: Alessandro Piatti.
+	
+	Foglio di stile.
+*/
+
+/* Tag generici - specificazioni HTML */
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: #3f536b;
+	/*background-image: url('./images/fade.gif');
+	background-position: center;
+	background-repeat: repeat-x;*/
+
+	background: -moz-linear-gradient(100% 100% 180deg, #3f536b, #afc5e0);
+	background: -webkit-gradient(linear, left top, right top, from(#afc5e0), to(#3f536b));
+
+	font-size: 16px;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	text-align: center;
+
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+input{
+	height: 40px;
+	width: 80%;
+	font-size: 2em;
+	font-family: sans-serif;
+	margin: 10px;
+}
+
+header{
+	font-size: 40px;
+	margin: 0px auto;
+	display: block;
+	padding: 10px;
+}
+
+nav{
+	text-transform: capitalize;
+	margin: 0px auto;
+	display: block;
+	padding: 10px;
+}
+
+h1{
+	color: #000;
+	font-size: 24px;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: 500;
+	line-height: 32px;
+	margin-top: 4px;
+}
+
+h2{
+	color: #000;
+	font-size: 20px;
+}
+
+a{
+	color: #666;
+	text-decoration: underline;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 50%;
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+}
+
+
+article{
+	position: relative;
+	background-color: #FFFFFF;
+	width: 50%;
+	min-height: 100%;
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+textarea{
+width: 80%;
+height: 250px;
+}
+
+footer {
+	position: relative;
+	min-height: 10px;
+	font-size: 10px;
+	display: block;
+}
+
+.delete{
+width: 16px;
+height: 16px;
+background-image: url('./images/delete.gif');
+}
+
+.link{
+	display: inline;
+	cursor: pointer;
+	color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+}	

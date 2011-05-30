@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /movida/
+
+RewriteRule ^([^/\.]+)/?$ index.php?sezione=$1 [L]
